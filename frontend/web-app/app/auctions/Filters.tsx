@@ -48,7 +48,7 @@ export default function Filters() {
     const orderBy = useParamsStore(state => state.orderBy)
     const filterBy = useParamsStore(state => state.filterBy)
     return (
-        <div className='flex justify-between items-center mb-4'>
+        <div className='flex flex-col md:flex-row gap-3 justify-between items-center mb-4'>
             <div>
                 <span className='uppercase text-sm text-gray-500 mr-2'>Order by</span>
                 <ButtonGroup>
