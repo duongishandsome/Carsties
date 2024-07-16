@@ -20,7 +20,7 @@ type Actions = {
 
 const initialState: State = {
     pageNumber: 1,
-    pageSize: 4,
+    pageSize: 12,
     pageCount: 1,
     searchTerm: '',
     searchValue: '',
