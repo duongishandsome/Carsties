@@ -1,7 +1,5 @@
-import { Label, TextInput } from 'flowbite-react'
 import React from 'react'
 import { useController, UseControllerProps } from 'react-hook-form'
-import 'react-datepicker/dist/react-datepicker.css'
 import DatePicker, { DatePickerProps } from 'react-datepicker'
 
 type Props = {
